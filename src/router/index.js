@@ -8,6 +8,11 @@ const router = createRouter({
       path: '/:campaign',
       name: 'home',
       component: HomeView
+    },
+    {
+      path: '/',
+      name: 'main',
+      component: HomeView
     }
   ]
 })
